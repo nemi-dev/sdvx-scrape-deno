@@ -1,9 +1,7 @@
 #!/usr/bin/env deno run --allow-net --allow-read --allow-write
 import { stringify } from "jsr:@std/csv";
 import { DOMParser, HTMLDocument } from "https://deno.land/x/deno_dom@v0.1.48/deno-dom-wasm.ts"
-import { sleep } from "https://deno.land/x/sleep@v1.3.0/mod.ts"
 
-const musics_ko = "https://usta.kr/sdvx/music/index.php"
 const musics =  "https://p.eagate.573.jp/game/sdvx/vi/music/index.html"
 const csvColumns = ['title', 'artist', 'nov', 'adv', 'exh', 'mxm', 'genre', 'unlockRaw', 'indexjk', 'jknov', 'jkadv', 'jkexh', 'jkmxm']
 
